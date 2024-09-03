@@ -4,6 +4,7 @@ import HeroImage from "./components/HeroImage";
 import SummarySection from "./components/SummarySection";
 import Services from "./components/Services";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </Row>
       <Row>
         <About />
+      </Row>
+      <Row>
+        <Contact />
       </Row>
     </Container>
   );

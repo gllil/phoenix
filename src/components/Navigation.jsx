@@ -5,15 +5,15 @@ const Navigation = () => {
   return (
     <Navbar bg="light">
       <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand className="d-flex align-items-center" href="/">
           <img
             src={logo}
             width="150"
             height="150"
-            className="d-inline-block"
+            className=""
             alt="Phoenix logo"
           />
-          Phoenix Lawn Services
+          <h1>Phoenix Lawn Services</h1>
         </Navbar.Brand>
       </Container>
     </Navbar>
