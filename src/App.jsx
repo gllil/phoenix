@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import HeroImage from "./components/HeroImage";
 import SummarySection from "./components/SummarySection";
 import Services from "./components/Services";
+import About from "./components/About";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Row>
       <Row>
         <Services />
+      </Row>
+      <Row>
+        <About />
       </Row>
     </Container>
   );

@@ -48,18 +48,18 @@ body {
 }
 
 .service-image-border {
-  width: 250px;
+  width: 100%;
   border-radius: 20px;
 }
 
 .service-image-wrapper {
   position: relative;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
 }
 
 .service-section {
-  height: 500px;
+  background-color: #edeff7;
 }
 
 #image-one {
