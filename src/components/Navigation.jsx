@@ -6,14 +6,9 @@ const Navigation = () => {
     <Navbar bg="light">
       <Container fluid>
         <Navbar.Brand className="d-flex align-items-center" href="/">
-          <img
-            src={logo}
-            width="150"
-            height="150"
-            className=""
-            alt="Phoenix logo"
-          />
-          <h1>Phoenix Lawn Services</h1>
+          <img src={logo} width="200" alt="Phoenix Lawn Services logo" />
+
+          <h1 className="d-none d-sm-block">Phoenix Lawn Services</h1>
         </Navbar.Brand>
       </Container>
     </Navbar>
