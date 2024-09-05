@@ -17,6 +17,12 @@ const Contact = () => {
                     Choose Phoenix Lawn Services for your lawn care needs.
                   </h3>
                   <h3>(385) 377-9399</h3>
+                  <a
+                    className="text-black link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                    href="mailto:phxlawnservices@gmail.com"
+                  >
+                    <h3>PhxLawnServices@gmail.com</h3>
+                  </a>
                 </Col>
               </Row>
             </div>
