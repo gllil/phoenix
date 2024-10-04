@@ -16,6 +16,13 @@ const Contact = () => {
                   <h3>
                     Choose Phoenix Lawn Services for your lawn care needs.
                   </h3>
+                  <div className="w-100">
+                    <h5 className="text-center w-50 mx-auto">
+                      Call or email us with your location and approximate
+                      dimensions of your lawn for a free quote.
+                    </h5>
+                  </div>
+
                   <h3>(385) 377-9399</h3>
                   <a
                     className="text-black link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
@@ -23,6 +30,7 @@ const Contact = () => {
                   >
                     <h3>PhxLawnServices@gmail.com</h3>
                   </a>
+                  <h3>Licensed & Insured</h3>
                 </Col>
               </Row>
             </div>

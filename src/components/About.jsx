@@ -21,6 +21,8 @@ const About = () => {
             keep their lawns clean and beautiful. Whether you need regular
             maintenance or a one-time service, we are here to help.
           </h4>
+
+          <h4>We are licensed and insured.</h4>
         </Col>
       </Row>
     </Container>
